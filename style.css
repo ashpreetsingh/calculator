@@ -1,0 +1,50 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+.container {
+    margin:auto;
+    background-color: #c0bdbd;
+    width: fit-content;
+    padding: 2%;
+    border-radius: 5px;
+
+    
+    
+}
+button {
+    border-radius: 100%;
+    border:none;
+    width:80px;
+    height:80px;
+    margin-top:5px;
+    
+
+    
+    
+
+
+}
+button:focus {outline:0;}
+.num {
+    background-color: #ebe9e9;
+}
+.op {
+    background-color: #ff6600;
+}
+.clear {
+    background-color: #fa5f5f;
+}
+button:hover {
+    background-color: white;
+    
+
+}
+#display {
+    width:95%;
+    background-color: white;
+    color:black;
+    font-size: 50px;
+    height:20vh;
+    text-align: right;
+}
